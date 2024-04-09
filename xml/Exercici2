@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Historics>
+  <Fet Descripcio="IBM posa al mercat el PC.">
+    <Data>
+      <Dia>12</Dia>
+      <Mes>8</Mes>
+      <Any>1981</Any>
+    </Data>
+  </Fet>
+  <Fet Descripcio="Se funda Google.">
+    <Data>
+      <Dia>4</Dia>
+      <Mes>9</Mes>
+      <Any>1998</Any>
+    </Data>
+  </Fet>
+  <Fet Descripcio="Se funda Facebook.">
+    <Data>
+      <Dia>4</Dia>
+      <Mes>2</Mes>
+      <Any>2004</Any>
+    </Data>
+  </Fet>
+</Historics>

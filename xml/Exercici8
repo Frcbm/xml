@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE productes [
+ <!ELEMENT productes (producte)*>
+ <!ELEMENT producte (identificació, nom)>
+ <!ELEMENT identificació (#PCDATA | codi | id)*>
+ <!ELEMENT codi (#PCDATA)>
+ <!ELEMENT id (#PCDATA)>
+ <!ELEMENT nom (#PCDATA)>
+]>
+<productes> 
+  <producte>
+   <identificació>
+   <codi>MAR264</codi>
+   </identificació>
+    <nom>martell</nom>
+  </producte>  
+  <producte>
+   <identificació>
+   <codi>CLAU387</codi>
+   </identificació>
+  <nom>clau anglesa</nom>
+</producte>
+</productes>
+

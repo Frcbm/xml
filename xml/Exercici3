@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tickets>
+  <ticket Codi="0001">
+    <Data>
+      <Dia></Dia>
+      <Mes></Mes>
+      <Any></Any>
+    </Data>
+    <Hora>
+      <Hores></Hores>
+      <Minuts></Minuts>
+      <Segons></Segons>
+    </Hora>
+    <Preus>
+      <SenseIVA></SenseIVA>
+      <IVA></IVA>
+      <AmbIVA></AmbIVA>
+    </Preus>
+    <FormaPagament>
+      <TipusPagament></TipusPagament>
+      <NumeroTargeta></NumeroTargeta>
+      <NomClient></NomClient>
+    </FormaPagament>
+  </ticket>
+</tickets>

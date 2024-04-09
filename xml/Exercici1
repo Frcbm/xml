@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ciutats>
+  <ciutat  Continent="Àsia">
+    <Nom>Nova Delhi</Nom>
+    <País>India</País>
+  </ciutat>
+  <ciutat Continent="Europa">
+    <Nom>Lisboa</Nom>
+    <País>Portugal</País>
+  </ciutat>
+  <ciutat Continent="Àfrica">
+    <Nom>El Cairo</Nom>
+    <País>Egipte</País>
+  </ciutat>
+</ciutats>
+

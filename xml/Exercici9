@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE obres_art [
+<!ELEMENT obres_art (cuadro*, escultura*, foto*)>
+<!ELEMENT cuadro EMPTY>
+<!ELEMENT escultura (#PCDATA)>
+<!ELEMENT foto (#PCDATA)>
+<!ATTLIST cuadro titol ID #REQUIRED>
+<!ATTLIST cuadro autor CDATA #REQUIRED>
+<!ATTLIST escultura artista ID #REQUIRED>
+<!ATTLIST escultura material CDATA #REQUIRED>
+<!ATTLIST foto fotograf ID #REQUIRED>
+<!ATTLIST foto any CDATA #REQUIRED>
+]>
+<obres_art>
+  <cuadro titol="AdánYEva" autor="Alberto Durero" />
+  <cuadro titol="AdánEva" autor="Lucas Cranach,el viejo" />
+  <escultura artista="MiguelAngel" material="Marmol blanco"> David </escultura>
+  <escultura artista="Rodin" material="Marmol"> El beso </escultura>
+  <foto fotograf="CharlesC.Ebbets" any="1932"> Almuerzo en lo alto de un rascacielos </foto>
+  <foto fotograf="desconegut" any="1989">Plaza de Tiananmen, </foto>
+</obres_art>

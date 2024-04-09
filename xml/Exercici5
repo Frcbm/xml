@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aficions [
+ <!ELEMENT aficions (afició*)>
+ <!ELEMENT aficio (#PCDATA)>
+]>
+nadar no esteia entre etiquetes
+<aficions>
+ <aficio>Llegir</aficio>
+ <aficio>Nadar</aficio>
+ <aficio>Caminar</aficio>
+</aficions>
