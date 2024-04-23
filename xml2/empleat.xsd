@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="empleat"><!--L'element pare es empleat, es tipus complex perque tendrà elements fills-->
+    <xs:complexType><!--nom i telefon son elements simples, pero direccio m'ha donat un problema en concret.-->
+      <xs:sequence>
+        <xs:element name="nom" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="direccio"  minOccurs="0" maxOccurs="unbounded"><!--Quan es crea un element complex dins altres elements complex s'ha de pensar a canviar la / al final de la declaració i afegir una etiqueta de tancament de l'element al final-->
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="carrer" type="xs:string"/>
+              <xs:element name="numero" type="xs:string"/>
+              <xs:element name="ciutat" type="xs:string"/>
+              <xs:element name="provincia" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="telefono" type="xs:integer" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="codi" type="xs:string" use="required"/><!--Finalment cream un atribut per empleat que se diu codi-->
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
