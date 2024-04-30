@@ -3,7 +3,7 @@
   <xs:element name="edat">
     <xs:simpleType>
       <xs:restriction base="XS:integer">
-        <xs:minInclusive value ="0 "/>
+        <xs:minInclusive value ="0"/>
         <xs:maxInclusive value ="105" />
       </xs:restriction>
     </xs:simpleType>
