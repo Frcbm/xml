@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+﻿<?xml version="1.0" encoding="UTF-8"?><!--declaració document xml-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"><!--el prefijo xs indica un tipo de dato en xsd-->
  <xs:element name="adreint">
  <xs:complexType>
  <xs:sequence>
